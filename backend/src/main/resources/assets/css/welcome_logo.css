@@ -1,0 +1,117 @@
+ #hackerPhoto {
+     background-position: center;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     border: 0.5px solid #40a855;
+     background-image: url(../assets/img/default_avatar.png);
+     background-size:     cover;
+     background-repeat:   no-repeat;
+     background-position: center center;
+ }
+
+  #groupPhoto {
+      background-position: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 0.5px solid #40a855;
+      background-image: url(../assets/img/group_chat_default.png);
+      background-size:     cover;
+      background-repeat:   no-repeat;
+      background-position: center center;
+  }
+
+  #chatHackerPhoto1 {
+     background-position: center;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     border: 0.5px solid #40a855;
+     background-image: url(../assets/img/default_avatar.png);
+     background-size:     cover;
+     background-repeat:   no-repeat;
+     background-position: center center;
+ }
+
+  #chatHackerPhoto2 {
+     background-position: center;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     border: 0.5px solid #40a855;
+     background-image: url(../assets/img/default_avatar.png);
+     background-size:     cover;
+     background-repeat:   no-repeat;
+     background-position: center center;
+ }
+
+  #hackerWelcomePhoto {
+        vertical-align: middle;
+        horizontal-align: center;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 0.5px solid #40a855;
+        background-image: url(../assets/img/default_avatar.png);
+        background-size:     cover;
+        background-repeat:   no-repeat;
+        background-position: center center;
+  }
+
+  .custom-file-upload {
+      border: 1px solid #ccc;
+      border-color: rgb(64, 168, 85);
+      display: inline-block;
+      cursor: pointer;
+      font-family: 'Anonymous Pro', monospace;
+      font-size: 10px;
+      background-color: rgba(0,0,0,0);
+      line-height: 10px;
+      padding: 6px 12px;
+      color: rgb(64, 168, 85);
+  }
+
+  progress {
+    border-radius: 7px;
+    color: rgb(64, 168, 85);
+    width: 30vw;;
+    height: 10px;
+    box-shadow: 0.5px 0.5px 1px rgba( 0, 0, 0, 0.2 );
+  }
+  progress::-webkit-progress-bar {
+    background-color: black;
+    border-radius: 7px;
+    box-shadow: 0.5px 0.5px 2px 1px rgb(64, 168, 85);
+  }
+  progress::-webkit-progress-value {
+    background-color: rgb(64, 168, 85);
+    border-radius: 7px;
+    box-shadow: 0.5px 0.5px 2px 1px rgb(64, 168, 85);
+  }
+  progress::-moz-progress-bar {
+    /* style rules */
+  }
+
+  @media only screen and (max-width: 40em) {
+   progress {
+     width: 60vw;
+   }
+  }
+
+#photo-and-progress { display: flex; flex-direction: column; }
+#hackerPhoto { order: 1; }
+#file-info-box-id { order: 2; }
+#file-upload-progress-box-id { order: 3; }

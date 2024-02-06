@@ -1,0 +1,2 @@
+id;statement;incompleteImplementation;correctImplementation;testingStatement;testingResult;hint;
+0;Complete function to sum two Int numbers;def sum(a: Int, b: Int): Int =;a+b;sum(2,3);5;sum(1,1) should return 2
