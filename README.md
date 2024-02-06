@@ -1,1 +1,1 @@
- ![alt text](src/main/resources/home.png)
+ ![alt text](screenshots/home.png)
